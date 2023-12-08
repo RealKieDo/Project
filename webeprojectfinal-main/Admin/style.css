@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsl(0, 46%, 35%);
+  color: white;
+  padding: 0px 100px;
+  position: fixed;
+  width: 100%;
+}
+.logo{
+    width: 240px;
+}
+header a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-right: 10px;
+}
+
+header a:hover{
+    color: #000000;
+    padding: 2px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.services .container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 170px;
+}
+.container{
+    height: 100vh;
+    background-image: url(https://wallpapers.com/images/high/gym-pictures-cvvcmuhn2ppuii7u.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    padding: 0 35px;
+    background-blend-mode: overlay;
+    background-size: cover;
+}
+.services .card{
+    background-color: rgb(255, 255, 255); 
+    border: none;
+    margin: 100px 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 40px;
+    width: 300px; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    
+}
+.services .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+.card h3{
+    color: crimson;
+    font-weight: 1000;
+    margin: 30px 0px;
+    
+}
+.card p{
+    font-size: 20px;
+}
+.services .card div{
+    color: #2C3E50;
+    font-size: 50px;
+}
+.card-button {
+    background-color: hsl(0, 46%, 35%);
+    color: white;
+    padding: 12px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    border: 2px solid transparent;
+    
+}
+.card-button:hover {
+    background-color: transparent;
+    color: hsl(0, 46%, 35%);
+    border-color: hsl(0, 46%, 35%);
+}
+@media (max-width: 768px) {
+    .services .container {
+        padding: 50px 20px;
+    }
+    .services .card {
+        margin: 15px;
+    }
+}

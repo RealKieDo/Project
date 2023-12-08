@@ -1,0 +1,120 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+    
+
+
+}
+
+header{
+    background-color: hsl(0, 46%, 35%);
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: solid rgb(0, 0, 0) 5px; ;
+
+}
+
+header h1{
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-right: 10px;
+
+}
+header a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-right: 10px;
+}
+header a:hover{
+    color: #000000;
+    
+    
+    padding: 2px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.carsour{
+    height: 100vh;
+    background-image: url(https://wallpapers.com/images/high/gym-pictures-cvvcmuhn2ppuii7u.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    padding: 0 35px;
+    background-blend-mode:overlay;
+    background-size: cover;
+    
+    
+
+    
+}
+.carsour a{
+    text-decoration: none;
+    color: #fffefe;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: rgba(4, 4, 4, 0.79);
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+}
+.carsour a:hover{
+    
+    color: #ff0000;
+    
+    
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.carsour h2{
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-right: 10px;
+    color: #e3e3e3;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.carsour p{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-right: 10px;
+    color: #e1e1e1;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*--first-color-light: hsl(79, 97%, 77%);
+  --first-color-alt: hsl(79, 67%, 52%);
+  --first-color-dark: hsl(79, 63%, 50%);*/
